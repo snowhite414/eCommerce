@@ -1,0 +1,55 @@
+:root {
+  --mainBlue: #2a2a72;
+  --lightBlue: #009ffd;
+  --mainWhite: #f3f3f3;
+  --mainDark: #232528;
+  --mainYellow: #ffa400;
+  --mainPink: #d70040;
+  --lightPink: #f6adc6;
+}
+body {
+  font-family: "Pacifico", cursive !important;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+}
+.text-title {
+  font-family: "Pacifico", cursive !important;
+  letter-spacing: 0.1rem;
+}
+.text-blue {
+  color: var(--mainBlue);
+}
+.text-lightBlue {
+  color: var(--lightBlue);
+}
+.text-pink{
+  color: var(--mainPink);
+}
+.font-plain{
+  font-family: "Georgia", serif;
+  font-size: large;
+
+}
+.center{
+  text-align: center;
+}
+.btn-black{
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color:var(--mainDark);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--mainDark) !important;
+}
+.btn-black:hover{
+  background: var(--mainDark) !important;
+  color: var(--mainWhite) !important;
+}
+.cart-icon{
+  cursor: pointer;
+  font-size: 1.3rem;
+  color: var(--mainPink);
+}
+.textRight{
+  text-align: right; 
+}
